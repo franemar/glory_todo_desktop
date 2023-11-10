@@ -13,7 +13,7 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
-  List<Settings> settings;
+  var settings = List<Settings>.empty(growable: true);
 
   void refreshSettings() {
     readSettings().then((value) {

@@ -66,9 +66,11 @@ class _ColumnPopUpMenuState extends State<ColumnPopUpMenu> {
         const PopupMenuItem<String>(
           value: 'remove',
           child: Center(
-            child: IconButton(
-              icon: Icon(Icons.delete),
-              color: Colors.black54,
+              child: IconButton(
+                icon: Icon(Icons.delete),
+                color: Colors.black54,
+                onPressed: () {}
+              ),
             ),
           ),
         ),

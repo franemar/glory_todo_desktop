@@ -27,7 +27,7 @@ class GloryIcons {
   GloryIcons._();
 
   static const _kFontFam = 'GloryIcons';
-  static const String _kFontPkg = null;
+  static const String? _kFontPkg = null;
 
   static const IconData check_circle =
       IconData(0xf058, fontFamily: _kFontFam, fontPackage: _kFontPkg);
